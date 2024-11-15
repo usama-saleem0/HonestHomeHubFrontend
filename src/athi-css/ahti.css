@@ -1,0 +1,793 @@
+/* @import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css"; */
+/* @import url("https://fonts.googleapis.com/css2?family=Doppio+One&display=swap"); */
+/* @import url("https://fonts.cdnfonts.com/css/pp-neue-montreal"); */
+
+/* 
+@font-face {
+  font-family: 'Doppio One';
+  src: url('../../public/fonts/DoppioOne-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+ */
+
+ * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.main-image img {
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  gap: 33px;
+  overflow-x: auto;
+  padding-bottom: 1%;
+}
+.my-new-page-slider .main-image {
+  position: relative;
+}
+
+.main-image img {
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.main-image.fade img {
+  opacity: 0; /* Fade out effect */
+}
+
+.thumbnails img {
+  width: 242px;
+  min-width: 242px;
+  min-width: 242px;
+  min-height: 200px;
+  max-height: 200px;
+  height: 200px;
+
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border 0.3s;
+  object-fit: cover;
+}
+
+
+
+.new-my-page-sec {
+    width: 100%;
+    background-color: #FFF;
+}
+
+.main-my-new-page {
+    width: 100%;
+}
+
+.my-new-page-head {
+    width: 100%;
+    padding: 40px 0px 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-new-page-head h2 {
+    color: #000;
+    -webkit-text-stroke-color: #000;
+      font-family: 'Urbanist';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -2.4px;
+    margin: 0px;
+}
+
+.my-new-page-head button {
+    background: #0874B7;
+    padding: 15px 45px;
+    border: 1px solid #0874B7;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    transition: 0.4s;
+    line-height: normal;
+}
+.my-new-page-head button:hover {
+  background: transparent;
+  color: #0874b7;
+  box-shadow: rgb(8 116 183) 0px 2px 8px 0px;
+}
+
+
+.my-new-page-body {
+    width: 100%;
+}
+
+.my-new-page-salider {
+    width: 100%;
+}
+
+.main-image {
+    width: 100%;
+    height: 69vh;
+    padding-bottom: 28px;
+}
+
+.main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.ahti-container {
+    width: 100%;
+    max-width: 1620px;
+    margin: 0 auto;
+}
+
+.my-new-page-ul-main-box {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 60px;
+}
+
+.my-new-page-ul-box {
+    width: 100%;
+}
+
+.my-new-page-ul-box h2 {
+    color: #000;
+      font-family: 'Urbanist';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.6px;
+    margin: 0px;
+}
+
+.my-new-page-ul-box ul {
+    width: 100%;
+    margin: 0px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.my-new-page-ul-box ul li {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Urbanist';
+}
+
+
+
+
+
+
+
+
+
+/* New-page-box-css-new-css-box *//* New-page-box-css-new-css-box */
+/* New-page-box-css-new-css-box *//* New-page-box-css-new-css-box */
+/* New-page-box-css-new-css-box *//* New-page-box-css-new-css-box */
+/* New-page-box-css-new-css-box *//* New-page-box-css-new-css-box */
+/* New-page-box-css-new-css-box *//* New-page-box-css-new-css-box */
+/* New-page-box-css-new-css-box *//* New-page-box-css-new-css-box */
+
+.Plumbing-Maintainance-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Plumbing-Maintainance-main {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Plumbing-Maintainance-box {
+    border-radius: 10px;
+    border: 1px solid #01BAF2;
+    background: #FFF;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.MuiStack-root.main-active-jobss.css-9ooee9-MuiStack-root {
+    width: 100% !important;
+}
+.Plumbing-Maintainance-tital-box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    overflow-y: auto;
+}
+
+.Plumbing-Maintainance-imger-box {
+    width: 50%;
+    height: 100%;
+}
+
+.Plumbing-Maintainance-imger-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.Plumbing-Maintainance-heading {
+    width: 100%;
+}
+
+.Plumbing-Maintainance-heading h2 {
+    color: #002758;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid #002758;
+}
+
+.Plumbing-Maintainance-heading p {
+    margin: 0px;
+    padding: 15px 0px 0px 25px;
+    color: rgba(0, 39, 88, 0.90);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.main-time-list-box h2 {
+    color: #333;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.Plumbing-Maintainance-span-box {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 25px;
+    flex-direction: column;
+    gap: 30px;
+}
+.limited-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .read-more-btn {
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 14px;
+  }
+
+.p-btn-flex-box {
+width: 100%;
+display: flex;
+align-items: flex-end;
+justify-content: flex-start;
+padding-right: 25px;
+}
+
+.p-btn-flex-box p {
+width: 86%;
+}
+.Plumbing-Maintainance-loction {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Plumbing-Maintainance-loction svg {
+    width: 20px;
+    height: 20px;
+}
+
+.Plumbing-Maintainance-loction p {
+    color: #333;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+
+.Plumbing-Maintainance-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.Plumbing-Maintainance-icon-box h2 {
+    color: #333;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+}
+
+
+.Plumbing-Maintainance-imger-box .slick-track {
+    gap: 0px !important;
+height: 100% !important;
+}
+.Plumbing-Maintainance-icon-box span {
+    color: #333;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    line-height: normal;
+    gap: 5px;
+    align-items: center;
+}
+
+.Plumbing-Maintainance-icon-box span svg {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Plumbing-Maintainance-imger-box .slick-slider {
+    height: 100%;
+}
+
+.Plumbing-Maintainance-imger-box .slick-list {
+    height: 100%;
+}
+
+
+.my-hell-box {
+    height: 460px;
+    width: 100% !important;
+
+}
+
+.Plumbing-Maintainance-imger-box .slick-slide {
+    width: 100% !important;
+
+}
+
+
+
+.Plumbing-Maintainance-imger-box img {
+    object-fit: cover;
+}
+
+
+
+.Plumbing-Maintainance-imger-box {
+    position: relative;
+}
+
+
+
+
+.Plumbing-Maintainance-imger-box  .slick-prev:before, .slick-next:before {
+    font-size: 34px;
+    border-radius: 50%;
+    line-height: 0px;
+    font-family: 'circular';
+    color: #002758;
+}
+
+
+
+.Plumbing-Maintainance-imger-box button.slick-arrow.slick-prev {
+    position: absolute;
+    left: 40px;
+    z-index: 999;
+}
+.Plumbing-Maintainance-imger-box button.slick-arrow.slick-next {
+    position: absolute;
+    right: 40px;
+    z-index: 999;
+}
+
+
+
+.main-time-list-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    height: 14vh;
+    overflow: auto;
+}
+.css-1xli2ds {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    width: 100%;
+}
+
+/* New-page-box-css-new-css-box *//* New-page-box-css-new-css-box */
+/* New-page-box-css-new-css-box *//* New-page-box-css-new-css-box */
+/* New-page-box-css-new-css-box *//* New-page-box-css-new-css-box */
+/* New-page-box-css-new-css-box *//* New-page-box-css-new-css-box */
+/* New-page-box-css-new-css-box *//* New-page-box-css-new-css-box */
+/* New-page-box-css-new-css-box *//* New-page-box-css-new-css-box */
+@media screen and (max-width: 1600px) {
+  .my-new-page-head h2 {
+    font-size: 50px;
+}
+
+.my-new-page-head button {
+    font-size: 20px;
+    padding: 10px 40px;
+}
+
+.my-new-page-head {
+    padding: 35px 0px 40px 0px;
+}
+
+.thumbnails {
+    gap: 20px;
+}
+
+.my-new-page-ul-main-box {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    gap: 35px;
+}
+
+.my-new-page-ul-box h2 {
+    font-size: 34px;
+}
+
+.my-new-page-ul-box ul {
+    gap: 14px;
+    padding-top: 24px;
+}
+
+.my-new-page-ul-box ul li {
+    font-size: 20px;
+}
+
+.ahti-container {
+    max-width: 1440px;
+}
+
+.thumbnails img {
+    width: 220px;
+    min-width: 220px;
+    max-width: 220px;
+    height: 190px;
+    min-height: 190px;
+    max-height: 190px;
+}
+}
+
+
+@media screen and (max-width: 1440px){
+
+
+    .Plumbing-Maintainance-main {
+        width: 90%;
+    }
+    
+    
+    
+  .my-new-page-head h2 {
+    font-size: 40px;
+}
+
+.my-new-page-head {
+    padding: 30px 0px 35px 0px;
+}
+
+.main-image {
+    padding-bottom: 24px;
+}
+
+.thumbnails {
+    gap: 14px;
+}
+form.unique-class-78 h3 {
+    font-size: 16px;
+    text-align: center;
+}
+.thumbnails img {
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 180px;
+    max-height: 180px;
+    height: 180px;
+}
+
+.my-new-page-ul-box ul li {
+    font-size: 18px;
+}
+
+.my-new-page-ul-box ul {
+    gap: 10px;
+    padding-top: 15px;
+}
+
+.my-new-page-ul-box h2 {
+    font-size: 30px;
+}
+
+.my-new-page-ul-main-box {
+    padding-top: 60px;
+    padding-bottom: 35px;
+    gap: 25px;
+}
+
+.ahti-container {
+    max-width: 1366px;
+}
+
+.new-my-page-sec {
+    padding: 0px 3%;
+}
+}
+@media screen and (max-width: 1024px){
+    
+.Plumbing-Maintainance-main {
+    width: 100%;
+}
+
+.Plumbing-Maintainance-box {
+    height: 390px;
+}
+
+.Plumbing-Maintainance-heading h2 {
+    font-size: 22px;
+    padding: 18px;
+}
+
+.Plumbing-Maintainance-heading p {
+    font-size: 14px;
+    padding: 10px 0px 0px 20px;
+}
+
+.Plumbing-Maintainance-tital-box {
+    padding-bottom: 25px;
+}
+.my-hell-box {
+    height: 390px;
+}
+.main-time-list-box h2 {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.Plumbing-Maintainance-icon-box span {
+    font-size: 15px;
+}
+
+.main-time-list-box {
+    gap: 5px;
+}
+
+.read-more-btn {
+    font-size: 12px;
+}
+}
+
+@media screen and (max-width: 768px){
+  .my-new-page-head h2 {
+    font-size: 30px;
+}
+
+.my-new-page-head button {
+    font-size: 16px;
+    padding: 8px 30px;
+}
+
+.my-new-page-head {
+    padding: 25px 0px 30px 0px;
+}
+
+.main-image {
+    height: 40vh;
+}
+
+.thumbnails img {
+    width: 160px;
+    min-width: 160px;
+    min-width: 160px;
+    height: 140px;
+    min-height: 140px;
+    max-height: 140px;
+}
+
+.my-new-page-ul-main-box {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+
+.my-new-page-ul-box h2 {
+    font-size: 28px;
+}
+.p-btn-flex-box {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px 20px;
+}
+
+.Plumbing-Maintainance-heading p {
+    padding: 10px 0px 0px 0px;
+    width: 100%;
+}
+
+.Plumbing-Maintainance-span-box {
+    gap: 24px;
+    padding: 0px 20px;
+}
+
+.Plumbing-Maintainance-tital-box {
+    padding-bottom: 25px;
+    width: 60%;
+}
+
+.Plumbing-Maintainance-imger-box {
+    width: 40%;
+}
+}
+
+
+
+@media screen and (max-width: 600px){
+  .my-new-page-head h2 {
+    font-size: 28px;
+}
+
+.my-new-page-head button {
+    padding: 8px 24px;
+    font-size: 14px;
+}
+
+.main-image {
+    height: 28vh;
+}
+
+.thumbnails img {
+    width: 140px;
+    min-width: 140px;
+    max-width: 140px;
+    height: 120px;
+    min-height: 120px;
+    max-height: 120px;
+    margin: 0px;
+}
+
+
+.Plumbing-Maintainance-box {
+    flex-direction: column;
+    height: 100%;
+}
+
+.Plumbing-Maintainance-tital-box {
+    width: 100%;
+}
+
+.Plumbing-Maintainance-imger-box {
+    width: 100%;
+}
+
+.Plumbing-Maintainance-imger-box img {
+    border-radius: 0px 0px 10px 10px;
+    height: 100%;
+}
+
+.p-btn-flex-box {
+    padding: 10px;
+}
+
+.Plumbing-Maintainance-span-box {
+    padding: 0px 10px;
+}
+
+.Plumbing-Maintainance-heading h2 {
+    padding: 14px;
+    font-size: 18px;
+}
+
+.Plumbing-Maintainance-icon-box span {
+    font-size: 14px;
+}
+.my-hell-box {
+    height: 300px;
+    width: 100% !important;
+}
+.Plumbing-Maintainance-heading p {
+    font-size: 14px;
+}
+.thumbnails {
+    gap: 10px;
+}
+
+.my-new-page-ul-main-box {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.my-new-page-ul-box h2 {
+    font-size: 22px;
+}
+
+.my-new-page-ul-box ul li {
+    font-size: 16px;
+}
+
+.my-new-page-ul-box ul {
+    gap: 8px;
+}
+}

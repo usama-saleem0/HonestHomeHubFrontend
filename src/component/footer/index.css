@@ -1,0 +1,132 @@
+.footer_heading {
+    color: #FFF;
+    font-family: system-ui;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110px;
+}
+
+.footer-link {
+    color: #FFF;
+    font-family: system-ui;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.footer-main .footer_heading.vstack {
+    height: unset;
+    flex: unset !important;
+    height: 100%;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    /* 366.667% */
+    line-height: 60px;
+    margin: 0 0 20px 0;
+    gap:20px
+}
+.popup-View-box {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #0000007a;
+}
+.footer-main .vstack {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 550% */
+}
+
+
+@media (max-width: 1366px) {
+    .footer-main .footer_heading.vstack {
+        color: #fff;
+        flex: initial !important;
+        font-family: Urbanist;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        height: auto;
+        height: 100%;
+        line-height: 60px;
+        margin: 0 0 20px;
+    }
+
+    .footer-main .vstack {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+
+   
+    
+}
+
+
+
+.css-z4r21k{
+    color: white !important;
+    text-decoration: none !important;
+
+}
+
+
+.MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-z4r21k{
+
+   
+    /* color: #0d6efd; */
+    color: white;
+    text-decoration: none !important;
+
+}
+
+
+
+@media (max-width: 1600px) {
+
+
+    .MuiStack-root.drawer_style.css-1eiyj77-MuiStack-root{
+
+        width: 280px!important;
+        
+        }
+        
+        .MuiStack-root.drawer_style.css-rd8a0n{
+        
+            width: 280px!important;
+        
+        }
+
+}
+
+
+
+@media (max-width: 1440px) {
+
+.MuiStack-root.drawer_style.css-1eiyj77-MuiStack-root{
+
+width: 280px!important;
+
+}
+
+.MuiStack-root.drawer_style.css-rd8a0n{
+
+    width: 280px!important;
+
+}
+}

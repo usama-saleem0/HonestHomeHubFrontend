@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "honest-home-hub-417914",
+    "honesthome": "dylan-testing-4039d",
+    "honehomehub": "honest-home-hub-417914"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

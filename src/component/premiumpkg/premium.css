@@ -1,0 +1,8 @@
+.scroll_content::-webkit-scrollbar {
+  width: 0.6em;
+}
+
+.scroll_content::-webkit-scrollbar-thumb {
+  background-color: #777777;
+  outline: 1px solid slategrey;
+}

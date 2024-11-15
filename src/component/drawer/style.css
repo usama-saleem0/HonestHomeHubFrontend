@@ -1,0 +1,234 @@
+.drawer_style {
+  flex-shrink: 0;
+  /* max-height: 100vh; */
+  overflow-y: scroll;
+  /* width: 600px; */
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 100%;
+  z-index: 100001;
+  background: white;
+  border-radius: 0px 30px 30px 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.drawer_style::-webkit-scrollbar {
+  width: 0.1px;
+}
+
+
+.iconsList {
+  padding-left: 10px;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 7px;
+ 
+}
+.add_box{
+  padding-left: 10px;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 7px;
+  background-color: #0F172A;
+  height: 150px;
+}
+
+.iconsbtn {
+  margin-right: 10px;
+  align-items: center;
+  -webkit-filter: hue-rotate(180deg);
+  filter: hue-rotate(180deg);
+}
+
+.contentparent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 7px 0;
+  cursor: pointer;
+  /* margin-top: 10px; */
+  
+}
+
+@media (max-width: 1200px) {
+  .main_dashoard {
+    /* width: 70px; */
+    display: none;
+    text-align: center;
+  }
+
+  .iconsbtn {
+    margin-right: 0;
+  }
+
+  .iconsList {
+    align-items: center;
+    cursor: pointer;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0px;
+    margin-left: 0px;
+    
+  }
+
+  .contentparent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 18px 0; */
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 765px) {
+  /* .main_dashoard {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-direction: row;
+    width: 100%;
+    z-index: 1001;
+    height: 10vh;
+
+    position: fixed;
+    bottom: 0;
+    z-index: 10001;
+    border-top: 1px solid gray;
+  } */
+
+  .main_dashoard::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+
+  .iconsList {
+    text-align: center;
+    margin-left: 0px;
+    
+  }
+}
+
+.body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  z-index: 1;
+  background-repeat: no-repeat;
+  width: calc(100% - 230px);
+  margin-left: 230px;
+}
+
+.contrast-bg {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 1200px) {
+  .body {
+    width: calc(100% - 70px);
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 765px) {
+  .body {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.MuiStack-root.css-rcwpvw-MuiStack-root {
+  font-size: medium;
+    /* border: 1px solid;
+    padding: 3px 8px 3px 8px;
+    border-radius: 7px; */
+    /* background-color: rgb(46, 178, 34); */
+    color: rgb(46, 178, 34);
+    font-weight: bold;
+}
+
+.MuiStack-root.css-1jyutsc-MuiStack-root {
+  font-size: 15px;
+}
+
+.MuiStack-root.css-v3mt78 {}
+
+.css-v3mt78 {
+    font-size: 24px !important;
+}
+
+.css-bb6yui {
+    color: rgb(178, 34, 52) !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+.MuiStack-root.css-zaltu2 {
+  display: flex;
+  /* justify-content: space-between; */
+  color: white;
+  width: 100%;
+}
+
+
+
+.css-v3mt78 {
+  font-size: 20px !important;
+}
+
+.css-1uydea8 {color: rgb(46, 178, 34) !important;font-size: 14px !important;font-weight: 600 !important
+            ;}
+
+.css-d6200k {
+  font-size: 15px !important;
+}
+
+.css-ewmkjb {
+  font-size: 15px !important
+  ;
+}
+
+.css-omn6lr {
+  gap: 25px !important;
+  font-size: 15px !important;
+}
+.css-d6200k {
+    font-size: 15px !important;
+    padding-left: 8px !important;
+}
+
+.css-ewmkjb {
+    font-size: 12px  !important;
+}
+
+.MuiStack-root.css-1aj2g1s-MuiStack-root {
+  font-size: 21px;
+}
+.MuiStack-root.css-rnt9xr-MuiStack-root {
+  font-size: 15px;
+}
+.MuiStack-root.drawer_style.css-1eiyj77-MuiStack-root {
+  width: 300px;
+}
+.MuiStack-root.drawer_style.css-rd8a0n {
+  width: 300px;
+}
+
+
+.MuiStack-root.css-1njax5j-MuiStack-root {
+  font-size: medium;
+  /* border: 1px solid; */
+  /* padding: 3px 8px 3px 8px; */
+  color: rgb(178, 34, 52);
+  font-weight: bold;
+}
+
+.MuiStack-root.css-yxav9m-MuiStack-root {
+  font-size: 14px;
+}
+
+
+/*  Templates SideBar Style End */
